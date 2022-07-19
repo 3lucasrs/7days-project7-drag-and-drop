@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #02172f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    margin: 20px 0;
+}
+
+.neutralArea {
+    width: 310px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #FFF;
+    border-radius: 25px;
+}
+
+.item {
+    width: 90px;
+    height: 130px;
+    background-color: #FFF;
+    color: #000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    border-radius: 25px;
+}
+
+.item.dragging {
+    opacity: 0.5;
+}
+
+.areas {
+    width: 310px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.areas.correct .area {
+    border: 2px solid #00FF00;
+}
+
+.area {
+    width: 94px;
+    height: 134px;
+    border: 2px solid #FF0000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+}
+
+.hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.sociais {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sociais i {
+    padding: 0 10px;
+}
+
+.sociais i:hover {
+    color: rgba(31, 153, 223, 0.2);
+}
+
+.sociais a {
+    color: #FFF;
+}
